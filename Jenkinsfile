@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-    registry = "rameshragegit/demoproject"
+    registry = "rameshragegit/projectdemo"
 
     registryCredential = 'docker-creds'
 
