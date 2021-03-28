@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-    registry = "RameshRageGit/Docker-Jenkins-Demo"
+    registry = "RameshRageGit/demoproject"
 
     registryCredential = 'docker-creds'
 
