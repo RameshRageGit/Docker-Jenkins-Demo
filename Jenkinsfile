@@ -2,7 +2,7 @@ pipeline {
 
   environment {
 
-    registry = "RameshRageGit/demoproject"
+    registry = "rameshragegit/demoproject"
 
     registryCredential = 'docker-creds'
 
@@ -18,7 +18,7 @@ pipeline {
 
       steps {
 
-        git 'https://github.com/RameshRageGit/Docker-Jenkins-Demo'
+        git 'https://github.com/rameshragegit/Docker-Jenkins-Demo'
 
       }
 
